@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0A1817;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background {
+    padding:0 5%;
+    /* Garante que o conteúdo tenha padding em relação à tela */
+}
+
+.conteudo {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.img-test {
+    width: 700px;
+    max-width: 100%;
+    height: 100%;
+    margin-top: -250px;
+}
+
+/* Manter o texto próximo às margens da tela */
+nav h2 {
+    color: #3DC0D4;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 0;
+    /* Ajuste o padding conforme necessário */
+    width: 100%;
+    /* Garante que o nav ocupe toda a largura */
+    position: relative;
+}
+
+span {
+    color: #538E1E;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #3DC0D4;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li a :hover {
+    color: rgb(37, 34, 199);
+    transform: scale(1.2);
+}
+
+.main {
+    transform: translateY(-50);
+    max-width: fit-content;
+}
+
+.main span {
+    color: #538E1E;
+}
+
+.btn-init {
+    background-color: #8AE22E;
+    color: rgb(7, 7, 6);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn-init :hover {
+    transform: scale(.2s);
+}
+
+h1 {
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 20px;
+}
+
+h2 {
+    color: antiquewhite;
+    font-size: 10px;
+}
+/* resumo*/
+.container-btn form { /*  */
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.container-btn form input:first-child { /* estilo do 1 input */
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px; /* top left bottom right */
+    border: 2px solid #2d209e; /*  */
+    border-radius: 30px;
+    outline: none;
+}
+
+.container-btn form input:last-child{ /* estilo do 2 input */
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #3b22aa;
+    color: #fff;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    right: 6px; /* para entrar e ajustar  */
+    top: 6px;
+
+}
+
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.background-color-Sobre {
+    background-color: #191919;
+    width: 100%; /*  */
+    padding: 100px 0px;
+
+}
+
+.background-color-Sobre img {
+    width: 430px; /* tamanho da img */
+    height: auto;
+}
+
+.Text-sobre { /*  fazer a quebra do texto */
+    width: 550px;
+}
+
+.main-sobre { /*  */
+    display: flex; /* pra ficar um do lado do outro */
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px; /* pra div ficar centralizada */
+    margin: 0 auto; /* pra div ficar centralizada */
+}
+
+.Text-sobre h2 { /*  */
+    color: #fff;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px; /* afastamento do paragrafo */
+}
+
+.Text-sobre h5 { /*  */
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.Text-sobre p { /*  */
+    color: #538E1E;
+    letter-spacing: 1px;
+    line-height: 28px; /* espaço entre as linhas */
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.button {
+    background-color: #322699;
+    color: #fff;
+    text-transform: none; 
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.button:hover {
+    /* efeito de mudar a cor do botao */ 
+    background-color: transparent;
+    border: 2px solid #1b1a79;
+    cursor: pointer;
+}  
+
+.Container-serviços {  
+    background-color: #101010;
+    width: 100%; /* % para a div caber em varias telas  */
+    padding: 100px 0px;
+}
+
+.title h2 { /* */
+    color: #fff;
+    font-size: 55px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Caixa { /* */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap; /* fazer a quebra de linha se diminuir a tela */
+}
+
+.Card {
+    background: #191919;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.Card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #261e91;
+}
+.card h5 {
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.card p{
+    color:#3DC0D4;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+
+}
+.btn {
+    border: none;
+    padding: 18px;
+}
+.btn :hover {
+    background-color: transparent;
+    border: 2px solid #1b1a79;
+    cursor: pointer;
+}
+/*
+.Paragrafo-button {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button button {
+    margin-top: 25px;
+}*/
+
+.me-contate {
+    width: 100%; /* */
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-contate p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #431aa9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6 {
+    font-size: 35px;
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais {
+    display: flex;
+
+}
+
+.Redes-sociais a {
+    background-color: #292179;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Redes-sociais a:hover { /* efeito de aumentar*/
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end {
+    position: relative;
+    color: #3f3d8bd8;
+    bottom: 35px;
+    font-size: 14px;
+}
