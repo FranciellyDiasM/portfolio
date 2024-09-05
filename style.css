@@ -190,7 +190,7 @@ h3 {
 }
 
 .button {
-    background-color: #322699;
+    background-color: #9d1572;
     color: #fff;
     text-transform: none; 
     border: 2px solid transparent;
@@ -222,7 +222,7 @@ h3 {
     text-align: center;
 }
 
-.Caixa { /* */
+.caixa { /* */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -230,8 +230,8 @@ h3 {
     flex-wrap: wrap; /* fazer a quebra de linha se diminuir a tela */
 }
 
-.Card {
-    background: #191919;
+.card {
+    background: #844e4e;
     height: 365px;
     width: 335px;
     border-radius: 20px;
@@ -242,7 +242,7 @@ h3 {
 
 }
 
-.Card i {
+.card i {
     font-size: 50px;
     display: block;
     text-align: center;
@@ -262,17 +262,24 @@ h3 {
 
 }
 .btn {
-    border: none;
-    padding: 18px;
+    background-color: #9d1572;
+    color: #fff;
+    text-transform: none; 
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
 }
 .btn :hover {
     background-color: transparent;
-    border: 2px solid #1b1a79;
+    border: 2px solid #302ea1;
     cursor: pointer;
-}
-/*
+    
+   }
+
 .Paragrafo-button {
-    color: #fcfc;
+    color: rgba(174, 13, 13, 0.8);
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -280,7 +287,7 @@ h3 {
 
 .Paragrafo-button button {
     margin-top: 25px;
-}*/
+}
 
 .me-contate {
     width: 100%; /* */
