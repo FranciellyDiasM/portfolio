@@ -143,14 +143,14 @@ h3 {
 }
 
 .background-color-Sobre {
-    background-color: #191919;
+    background-color: #5c4545;
     width: 100%; /*  */
     padding: 100px 0px;
-
+    flex-wrap: wrap;
 }
 
 .background-color-Sobre img {
-    width: 430px; /* tamanho da img */
+    width: 200px; /* tamanho da img */
     height: auto;
 }
 
@@ -168,7 +168,7 @@ h3 {
 
 .Text-sobre h2 { /*  */
     color: #fff;
-    font-size: 55px;
+    font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 20px; /* afastamento do paragrafo */
 }
@@ -182,11 +182,14 @@ h3 {
 }
 
 .Text-sobre p { /*  */
-    color: #538E1E;
+    color: #9492a8;
     letter-spacing: 1px;
     line-height: 28px; /* espaço entre as linhas */
     font-size: 20px;
     margin-bottom: 45px;
+}
+.Text-sobre span{
+    color: #3DC0D4;
 }
 
 .button {
