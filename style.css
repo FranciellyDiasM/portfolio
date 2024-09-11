@@ -171,7 +171,6 @@ h3 {
 .teste-projeto {
     background-color: bisque;
     width: 100%;
-    padding: 100px 0px;
 }
 
 .titulo-projeto h2 {
@@ -184,15 +183,16 @@ h3 {
 
 .caixa-projeto {
     background-color: #844e4e;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 400px;
+    
 }
 
 .projeto-1 {
     background-color: #2d209e;
     height: auto;
-    width: 100%;
+    width: 200px;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -200,6 +200,7 @@ h3 {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     
 }
 
@@ -209,18 +210,26 @@ h3 {
     font-size: 20px;
     margin-bottom: 10px;
 
+
 }
 
 .projeto-1 p {
     color: #261e91;
     font-size: 16px;
     line-height: 27px;
-    margin-bottom: 25px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .projeto-1 img{
     width: 100px;
     height: auto;
     margin: 10px;
+}
+.class{
+    width: 100px;
+    
 }
 
 .btnn {
