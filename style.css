@@ -109,8 +109,7 @@ h3 {
     background-color: #5c4545;
     width: 100%;
     /*  */
-    padding: 100px 0px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/*pra fazer a quebra de linha */
 }
 
 .background-color-Sobre img {
@@ -185,31 +184,23 @@ h3 {
 
 .caixa-projeto {
     background-color: #844e4e;
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
-    flex-wrap: wrap;
 }
 
 .projeto-1 {
     background-color: #2d209e;
-    height: 300px;
-    width: 500px;
+    height: auto;
+    width: 100%;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
-}
-
-.projeto-1 i {
-    background-color: #858585;
-    font-size: 30px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: #8AE22E;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .projeto-1 h5 {
@@ -226,14 +217,23 @@ h3 {
     line-height: 27px;
     margin-bottom: 25px;
 }
-
-.btnn {
-    border: #302ea1;
-    border-radius: 20px;
-    padding: 10px;
-    margin-bottom: 10px;
+.projeto-1 img{
+    width: 100px;
+    height: auto;
+    margin: 10px;
 }
 
+.btnn {
+
+    background-color: #8AE22E;
+    border: #302ea1;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+justify-content: center;
+}
 .btnn:hover {
     background-color: #3DC0D4;
     border: 2px solid #9d1572;
@@ -246,7 +246,7 @@ h3 {
     width: 100%;
     /* */
     background-color: #191919;
-    display: flex;
+    display: flex;/*pra ficar um do lado do outro */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -260,23 +260,14 @@ h3 {
 }
 .Redes-sociais {
     display: flex;
-
+    flex-wrap: wrap;
 }
 .Redes-sociais a {
-    background-color: #292179;
-    width: 45px;
-    height: 45px;
-    padding: 15px;
-    border-radius: 50%;
-    margin: 22px 10px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
+    }
 
 .Redes-sociais a:hover {
     /* efeito de aumentar*/
@@ -293,27 +284,15 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-footer h6 {
-    font-size: 35px;
-    color: #fff;
+    margin: 5px;
 }
 
 footer p {
     color: #fff;
-    font-size: 18px;
-    width: 500px;
+    font-size: 10px;
     text-align: center;
-    margin-top: 15px;
     letter-spacing: 1px;
-    line-height: 23px;
 }
 
-.end {
-    position: relative;
-    color: #3f3d8bd8;
-    bottom: 35px;
-    font-size: 14px;
-}
+
 
