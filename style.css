@@ -188,7 +188,7 @@ h3 {
 
 .projeto-1 {
     display: flex;
-    flex-wrap: wrap; /* Flexível para ajustar em telas menores */
+    gap: 4px;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
@@ -205,14 +205,18 @@ h3 {
 }
 
 .projeto-1 p {
+    display: flex;
+    gap: 4px;
+    justify-content: start;
+    align-items: center;
     color: #8AE22E;
-    flex: 1;
+    width: 100%;
     margin-right: 20px;
 }
 
 .fotos {
     display: flex;
-    flex-wrap: wrap; /* Imagens ajustam-se para ficarem lado a lado ou embaixo conforme a largura */
+    flex-wrap: nowrap; /* Imagens ajustam-se para ficarem lado a lado ou embaixo conforme a largura */
     gap: 10px;
 }
 
@@ -220,6 +224,14 @@ h3 {
     max-width: 150px;
     height: auto;
     border-radius: 5px;
+}
+
+.align-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
 }
 
 .btnn {
