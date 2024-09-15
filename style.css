@@ -13,18 +13,6 @@
     /* Garante que o conteúdo tenha padding em relação à tela */
 }
 
-.conteudo {
-    display: flex;
-    gap: 100px;
-    margin-top: 100px;
-}
-
-.img-test {
-    width: 700px;
-    max-width: 100%;
-    height: 100%;
-    margin-top: -250px;
-}
 
 /* Manter o texto próximo às margens da tela */
 nav h2 {
@@ -67,9 +55,25 @@ nav ul li a:hover {
     transform: scale(1.2);
 }
 
+.conteudo {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-top: 80px;
+
+}
+
 .main {
-    transform: translateY(-50);
-    max-width: fit-content;
+
+    width: 700px;
+}
+
+.img-test {
+    width: 700px;
+    max-width: 100%;
+    height: 100%;
+    margin-top: -250px;
+    margin-right: 50px;
 }
 
 .main span {
@@ -78,34 +82,46 @@ nav ul li a:hover {
 
 .btn-init {
     background-color: #44868B;
-    color: rgb(7, 7, 6);
+    color: black;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
+    padding: 5px 5px;
+    border-radius: 90px;
+    position: fixed;
+    bottom: 10px;
+        z-index: 1000;
+}
+.btn-right{
+    right: 5px;
+}
+.btn-left{
+    left: 1215px;
 }
 
 .btn-init:hover {
-    transform: scale(.2s);
-}
-
-h1 {
-    color: #fff;
-    margin: 20px 0px 20px;
-    font-size: 20px;
+    background-color: transparent;
+    color: #44868B;
+    border: 2px dotted #44868B;
+    cursor: pointer;
+    transition: .3s;
 }
 
 h4 {
-    color: rgba(254, 253, 254, 0.8);
+    color: whitesmoke;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
+h1 {
+    color: #44868B;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+}
+
 h3 {
-    color: #fff;
+    color: whitesmoke;
     font-size: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .background-color-Sobre {
@@ -177,7 +193,7 @@ h3 {
 .teste-projeto {
     width: 100%;
     padding: 50px;
-    
+
 }
 
 .titulo-projeto h2 {
@@ -186,7 +202,7 @@ h3 {
     margin: 20px 150px;
     text-align: center;
     border: 9px double #44868B;
-    
+
 }
 
 .caixa-projeto {
@@ -198,6 +214,8 @@ h3 {
 
 .projeto-1 {
     display: flex;
+    height: 400px;
+
     gap: 4px;
     justify-content: space-between;
     align-items: flex-start;
@@ -230,12 +248,14 @@ h3 {
     flex-wrap: nowrap;
     /* Imagens ajustam-se para ficarem lado a lado ou embaixo conforme a largura */
     gap: 10px;
+
 }
 
 .fotos img {
-    max-width: 150px;
+    max-width: 265px;
     height: auto;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .align-items {
