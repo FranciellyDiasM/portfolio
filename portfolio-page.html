@@ -11,24 +11,24 @@
 
 <body>
 
-    <div class="background">
+    <div id="inicio" class="background">
 
         <nav><!--cabecalho link-->
             <h2>FRANCIELLY <span>DIAS</span></h2>
             <ul class="cabecalho-link">
-                <li><a href="#">INÍCIO</a></li>
-                <li><a href="##">SOBRE</a></li>
-                <li><a href="##">PROJETOS</a></li>
+                <li><a href="#inicio">INÍCIO</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#projetos">PROJETOS</a></li>
             </ul>
 
-            <a href="##" class="btn-init">Início</a>
+            <a href="#inicio" class="btn-init">Início</a>
         </nav>
         <!--descriçao e imagem-->
         <div class="conteudo">
             <div class="main">
-                <h4> Olá, meu nome é</h4>
+                <h4> Olá, eu sou estudante de ADS e meu nome é</h4>
                 <h1>FRANCIELLY <span>DIAS</span></h1>
-                <h3> E eu sou estudante de desenvolvimento de softwares.</h3>
+                <h3> e este é meu portfólio para a matéria de Desenvolvimento Web.</h3>
 
             </div>
             <img src="./img/imagem1.gif" alt="" class="img-test">
@@ -36,36 +36,35 @@
     </div>
 
     <!--seção-sobre-->
-    <section class="background-color-Sobre">
+    <section id="sobre" class="background-color-Sobre">
         <div class="main-sobre">
             <img src="img/fotoo.jpeg">
             <div class="Text-sobre">
                 <h2>Sobre-Mim</h2>
                 <h5>Estudante de <span>Desenvolvimento de Softwares</span></h5>
-                <p>Sou Francielly Dias Macedo Trancoso Dal-cim e estou mergulhando no mundo do desenvolvimento de
-                    software.
-                    Estou aprendendo a criar ferramentas e aplicações usando Java, Python, Kotlin, HTML e CSS.
+                <p>Sou Francielly Dias Macedo Trancoso Dal-cim e já cursei Tecnico em Mecanica e fiz estágio na área.
+                    Também cursei Engenharia Civil porém não concluí o curso (trancado no 8º periodo).
+                    E agora eu estou mergulhando no mundo do desenvolvimento de software.
+                    Já aprendi um pouco de Java, Python, Kotlin, SQL, HTML e CSS.
                     Cada novo conceito que descubro me deixa animada, pois adoro o processo de aprendizado e a
-                    sensação de dominar novas habilidades. É incrível ver o que posso criar com essas
-                    tecnologias, e isso me motiva a ir ainda mais longe. Estou determinada a continuar
-                    crescendo e aprendendo cada vez mai e sempre buscar aprimorar meu conhecimento.</p>
+                    sensação de dominar novas habilidades. Estou determinada a continuar
+                    crescendo e aprendendo cada vez mais e sempre buscar aprimorar meu conhecimento.</p>
 
             </div>
         </div>
     </section>
 
     <!--seção-projetos-->
-    <div class="teste-projeto"><!--pagina-->
+    <div id="projetos" class="teste-projeto"><!--pagina-->
         <div class="titulo-projeto"><!--titulo da pagina-->
             <h2>Meus projetos</h2>
             <div class="caixa-projeto">
                 <div class="projeto-1">
                     <article class="align-items">
                         <h5>GeniuStudy</h5>
-                        <p>Criar um ambiente colaborativo e inclusivo onde alunos de qualquer área de
-                            conhecimento possam encontrar professores qualificados para receber
-                            orientação personalizada, esclarecer dúvidas e aprimorar suas habilidades de
-                            maneira eficaz e motivadora.
+                        <p>Sistema para cadastro de professores e alunos para tutoria.
+                            Este projeto foi executado usando o NetBeans com swing e linguagem Java.
+                            Projeto feito para a disciplina LPOO.
                         </p>
                         <button class="btnn"
                             onclick="window.open('https://github.com/FranciellyDiasM/geniusStudy', '_blank');">
@@ -83,39 +82,40 @@
                         <h5>Casa de repouso</h5>
                         <p> Foi uma aplicação computacional referente a uma área de negócio usando armazenamento
                             de dados em arquivo TXT.
+                            Projeto feito na linguagem Java e com banco de dados.
                         </p>
-                        <div class="fotos">
-                            <img src="img/geniuslogin.PNG" alt="">
-                            <img src="img/geniuscod.PNG" alt="">
-
-                            <button class="btnn"
-                                onclick="window.open('https://github.com/FranciellyDiasM/CadastroCasaRepouso', '_blank');">
-                                Ver repositório
-                            </button>
+                        <button class="btnn"
+                            onclick="window.open('https://github.com/FranciellyDiasM/CadastroCasaRepouso', '_blank');">
+                            Ver repositório
+                        </button>
                     </article>
+                    <div class="fotos">
+                        <img src="img/casarepousprog.png" alt="">
+                        <img src="img/casarepousocod.PNG" alt="">
+
+                    </div>
                 </div>
-            </div>
 
-            <div class="projeto-1">
-                <h5>Curso kotlin</h5>
-                <p>Criar um ambiente colaborativo e inclusivo onde alunos de qualquer área de
-                    conhecimento possam encontrar professores qualificados para receber
-                    orientação personalizada, esclarecer dúvidas e aprimorar suas habilidades de
-                    maneira eficaz e motivadora.
-                </p>
-                <div class="fotos">
-                    <img src="img/geniuslogin.PNG" alt="">
-                    <img src="img/geniuscod.PNG" alt="">
-
-                    <button class="btnn"
-                        onclick="window.open('https://github.com/FranciellyDiasM/geniusStudy', '_blank');">
-                        Ver repositório
-                    </button>
+                <div class="projeto-1">
+                    <article class="align-items">
+                        <h5>Cadastro de professores e alunos</h5>
+                        <p>Usando a linguagem Python, apliquei o conhecimento sobre a estrutura de dados
+                            homogênea bidimensional (matriz) e unidimensional (vetor) no desenvolvimento
+                            dessa aplicação computacional referente a uma área de negócio.
+                        </p>
+                        <button class="btnn"
+                            onclick="window.open('https://github.com/FranciellyDiasM/CadastroCasaRepouso', '_blank');">
+                            Ver repositório
+                        </button>
+                    </article>
+                    <div class="fotos">
+                        <img src="img/python2.png" alt="">
+                        <img src="img/python.png" alt="">
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
-    </div>
     </div>
 
 

@@ -4,12 +4,15 @@
     box-sizing: border-box;
     background-color: #0A1817;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*#7DE5F4- azul claro  #44868B-azul  #599820-verde claro #2A470C-verde escuro
+      */
 }
 
 .background {
     padding: 0 5%;
     /* Garante que o conteúdo tenha padding em relação à tela */
 }
+
 .conteudo {
     display: flex;
     gap: 100px;
@@ -25,7 +28,7 @@
 
 /* Manter o texto próximo às margens da tela */
 nav h2 {
-    color: #3DC0D4;
+    color: #7DE5F4;
     font-size: 35px;
     cursor: pointer;
     letter-spacing: 2px;
@@ -43,7 +46,7 @@ nav {
 }
 
 span {
-    color: #538E1E;
+    color: #599820;
 }
 
 nav ul li {
@@ -53,14 +56,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #3DC0D4;
+    color: #7DE5F4;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
 nav ul li a:hover {
-    color: rgb(37, 34, 199);
+    color: #44868B;
     transform: scale(1.2);
 }
 
@@ -70,11 +73,11 @@ nav ul li a:hover {
 }
 
 .main span {
-    color: #538E1E;
+    color: #599820;
 }
 
 .btn-init {
-    background-color: #8AE22E;
+    background-color: #44868B;
     color: rgb(7, 7, 6);
     text-decoration: none;
     font-weight: bold;
@@ -108,7 +111,8 @@ h3 {
 .background-color-Sobre {
     width: 100%;
     /*  */
-    flex-wrap: wrap;/*pra fazer a quebra de linha */
+    flex-wrap: wrap;
+    /*pra fazer a quebra de linha */
 }
 
 .background-color-Sobre img {
@@ -116,9 +120,10 @@ h3 {
     /* tamanho da img */
     height: auto;
     margin: 20px;
-    
+    border: 4px dashed #44868B;
 }
-.background-color-Sobre img:hover{
+
+.background-color-Sobre img:hover {
     transform: scale(1.6);
     transition: .5s;
 }
@@ -126,11 +131,11 @@ h3 {
 .Text-sobre {
     /*  fazer a quebra do texto */
     width: 550px;
-    border: #3DC0D4;
+    border: #7DE5F4;
 }
 
 .main-sobre {
-   border: #8AE22E;
+    border: #8AE22E;
     display: flex;
     /* pra ficar um do lado do outro */
     align-items: center;
@@ -141,9 +146,9 @@ h3 {
 
 .Text-sobre h2 {
     letter-spacing: 3px;
-    color: #fff;
+    color: #44868B;
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     /* afastamento do paragrafo */
 }
 
@@ -157,33 +162,38 @@ h3 {
 
 .Text-sobre p {
     /*  */
-    color: #f7f6fa;
+    color: white;
     letter-spacing: 1px;
     line-height: 28px;
     /* espaço entre as linhas */
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .Text-sobre span {
-    color: #3DC0D4;
+    color: #7DE5F4;
 }
+
 .teste-projeto {
     width: 100%;
     padding: 50px;
+    
 }
 
 .titulo-projeto h2 {
-    background-color: #5c4545;
-    color: #538E1E;
+    color: #7DE5F4;
     font-size: 40px;
     margin: 20px 150px;
     text-align: center;
+    border: 9px double #44868B;
+    
 }
+
 .caixa-projeto {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espaçamento entre os projetos */
+    gap: 20px;
+    /* Espaçamento entre os projetos */
 }
 
 .projeto-1 {
@@ -194,14 +204,15 @@ h3 {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(220, 23, 23, 0.644);
+    box-shadow: 0 4px 8px #599820;
 }
 
 .projeto-1 h5 {
     color: #3DC0D4;
     font-size: 1.5em;
     margin-bottom: 10px;
-    width: 100%; /* O título ocupa a linha toda */
+    width: 100%;
+    /* O título ocupa a linha toda */
 }
 
 .projeto-1 p {
@@ -209,14 +220,15 @@ h3 {
     gap: 4px;
     justify-content: start;
     align-items: center;
-    color: #8AE22E;
+    color: #599820;
     width: 100%;
     margin-right: 20px;
 }
 
 .fotos {
     display: flex;
-    flex-wrap: nowrap; /* Imagens ajustam-se para ficarem lado a lado ou embaixo conforme a largura */
+    flex-wrap: nowrap;
+    /* Imagens ajustam-se para ficarem lado a lado ou embaixo conforme a largura */
     gap: 10px;
 }
 
@@ -240,10 +252,10 @@ h3 {
     align-items: center;
     margin: 20px;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #44868B;
     color: white;
-    border: #9d1572;
     border-radius: 5px;
+    border: none;
     cursor: pointer;
     text-align: center;
     font-size: 15px;
@@ -251,9 +263,10 @@ h3 {
     height: 30px;
 }
 
-  .btnn:hover {
-    background-color: #3DC0D4;
-    border: 2px solid #9d1572;
+.btnn:hover {
+    background-color: transparent;
+    color: #7DE5F4;
+    border: 2px solid #7DE5F4;
     cursor: pointer;
     transform: scale(1.2);
     transition: .3s;
@@ -263,28 +276,31 @@ h3 {
 .me-contate {
     width: 100%;
     /* */
-    display: flex;/*pra ficar um do lado do outro */
+    display: flex;
+    /*pra ficar um do lado do outro */
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .me-contate p {
-    color: #fff;
+    color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
+
 .Redes-sociais {
     display: flex;
     flex-wrap: wrap;
 }
+
 .Redes-sociais a {
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    }
+}
 
 .Redes-sociais a:hover {
     /* efeito de aumentar*/
@@ -301,16 +317,12 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5px;
 }
 
 footer p {
     background-color: transparent;
-    color: #fff;
+    color: white;
     font-size: 10px;
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
-
-
-
