@@ -68,6 +68,10 @@ nav ul li a:hover {
     width: 700px;
 }
 
+.main span {
+    color: #599820;
+}
+
 .img-test {
     width: 700px;
     max-width: 100%;
@@ -76,8 +80,14 @@ nav ul li a:hover {
     margin-right: 50px;
 }
 
-.main span {
-    color: #599820;
+.cv {
+    background-color: transparent;
+    color: #44868B;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 90px;
+    box-shadow: 0 0 12px #44868B;
 }
 
 .btn-init {
@@ -89,12 +99,14 @@ nav ul li a:hover {
     border-radius: 90px;
     position: fixed;
     bottom: 10px;
-        z-index: 1000;
+    z-index: 1000;
 }
-.btn-right{
+
+.btn-right {
     right: 5px;
 }
-.btn-left{
+
+.btn-left {
     left: 1215px;
 }
 
@@ -146,12 +158,10 @@ h3 {
 
 .Text-sobre {
     /*  fazer a quebra do texto */
-    width: 550px;
-    border: #7DE5F4;
+    width: 600px;
 }
 
 .main-sobre {
-    border: #8AE22E;
     display: flex;
     /* pra ficar um do lado do outro */
     align-items: center;
@@ -163,7 +173,7 @@ h3 {
 .Text-sobre h2 {
     letter-spacing: 3px;
     color: #44868B;
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 40px;
     /* afastamento do paragrafo */
 }
@@ -172,7 +182,7 @@ h3 {
     /*  */
     color: #fff;
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 
@@ -182,7 +192,7 @@ h3 {
     letter-spacing: 1px;
     line-height: 28px;
     /* espaço entre as linhas */
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -198,7 +208,7 @@ h3 {
 
 .titulo-projeto h2 {
     color: #7DE5F4;
-    font-size: 40px;
+    font-size: 45px;
     margin: 20px 150px;
     text-align: center;
     border: 9px double #44868B;
@@ -215,7 +225,6 @@ h3 {
 .projeto-1 {
     display: flex;
     height: 400px;
-
     gap: 4px;
     justify-content: space-between;
     align-items: flex-start;
@@ -227,7 +236,7 @@ h3 {
 
 .projeto-1 h5 {
     color: #3DC0D4;
-    font-size: 1.5em;
+    font-size: 30px;
     margin-bottom: 10px;
     width: 100%;
     /* O título ocupa a linha toda */
@@ -235,6 +244,7 @@ h3 {
 
 .projeto-1 p {
     display: flex;
+    font-size: 25px;
     gap: 4px;
     justify-content: start;
     align-items: center;
@@ -271,14 +281,14 @@ h3 {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #44868B;
     color: white;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     width: auto;
     height: 30px;
 }
@@ -305,7 +315,7 @@ h3 {
 
 .me-contate p {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 25px;
 }
