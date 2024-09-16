@@ -1,4 +1,4 @@
-# [Meu Portfólio](https://franciellydiasm.github.io/portfolio/)
+# [--> Meu Portfólio <--](https://franciellydiasm.github.io/portfolio/)
 
 ## Projeto de Desenvolvimento Web I - Portfólio Web
 
@@ -7,7 +7,6 @@
 O objetivo deste projeto é desenvolver um portfólio web utilizando HTML e CSS. Este exercício permitirá que você coloque em prática seus conhecimentos de desenvolvimento web e habilidades de design, criando uma página pessoal que pode ser utilizada para exibir seus trabalhos e conquistas.
 
 Requisitos do Projeto:
-
 Desenvolvimento do Portfólio:
 
 *Utilize HTML e CSS para criar um portfólio web completo.
