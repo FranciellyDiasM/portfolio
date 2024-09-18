@@ -89,8 +89,8 @@ nav ul li a:hover {
 }
 
 .btn-init {
-    background-color: #44868B;
-    color: black;
+    color: #44868B;
+    border: 2px dotted #44868B;
     text-decoration: none;
     font-weight: bold;
     padding: 5px 5px;
@@ -101,19 +101,17 @@ nav ul li a:hover {
 }
 
 .btn-right {
-    right: 5px;
+    right: 20px; /*canto direito */
 }
 
 .btn-left {
-    left: 1215px;
+    left: 20px; /*canto esquerdo */
 }
 
 .btn-init:hover {
-    background-color: transparent;
-    color: #44868B;
-    border: 2px dotted #44868B;
     cursor: pointer;
-    transition: .3s;
+    transform: scale(1.6);
+    transition: .5s;
 }
 
 h4 {
@@ -364,4 +362,31 @@ footer p {
 
 html {
     scroll-behavior: smooth;
+}
+
+.hr-multiple-icons {
+    border: none;
+    height: 24px;
+    background: repeating-linear-gradient(to right,
+            transparent,
+            transparent 10px,
+            transparent 10px,
+            transparent 30px);
+    /* Ajusta a distância entre os ícones e o preenchimento */
+    position: relative;
+    margin: 20px 0;
+}
+
+.hr-multiple-icons:before {
+    content: "✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦";
+    /* Repita o ícone no conteúdo */
+    display: block;
+    text-align: center;
+    color: #44868B;
+    /* Cor do ícone */
+    font-size: 24px;
+    letter-spacing: 10px;
+    /* Espaçamento entre os ícones */
+    position: relative;
+    top: -8px;
 }
